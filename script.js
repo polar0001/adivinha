@@ -11,9 +11,9 @@ function clique(){
         if(valor == sort){
             saida.innerHTML = "Acertou";
         } if(valor < sort){
-            saida.innerHTML = "O valor digitado é menor";
+            saida.innerHTML = "O valor é maior";
         } if(valor > sort){
-            saida.innerHTML = "O valor digitado é maior";
+            saida.innerHTML = "O valor é menor";
         }
     } else{
         saida.innerHTML = "Está fora do intervalo";
